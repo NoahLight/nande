@@ -11,7 +11,7 @@
 # fb     : https://www.facebook.com/meyrina.setyaningrum
 
 
-import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass, orbxd, requests, mechanize
+import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass, sing, requests, mechanize
 
 for n in range(10000):
     nm = random.randint(111, 999)
@@ -75,7 +75,7 @@ def emaileclone():
     except IOError:
         print '\x1b[0;96m\x1b[0;97m [\x1b[1;36m\xe2\x80\xa2\x1b[1;37m] File Not Found'
         raw_input('\n [BACK]')
-        exit(orbxd.menu())
+        exit(sing.menu())
 
     xxx = str(len(id))
     psb('\x1b[0;97m [\x1b[1;36m•\x1b[1;37m] Total Crack : ' + xxx)
@@ -140,7 +140,7 @@ def emaileclone():
     p.map(main, id)
     print '\x1b[0;96m\x1b[0;97m [\x1b[1;36m\xe2\x80\xa2\x1b[1;37m] CRACKER Completed ...'
     raw_input('\x1b[0;96m\x1b[0;97m [\x1b[1;36m\xe2\x80\xa2\x1b[1;37m] Press Enter Go Back To Menu \x1b[1;97m')
-    exit(orbxd.menu())
+    exit(sing.menu())
     
 if __name__=="__main__":
     emaileclone()
