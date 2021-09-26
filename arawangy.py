@@ -11,7 +11,7 @@
 # fb     : https://www.facebook.com/meyrina.setyaningrum
 
 
-import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass,sing
+import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass,orbxd
 os.system('rm -rf .txt')
 for n in range(10000):
     nmbr = random.randint(1111111, 9999999)
@@ -199,7 +199,7 @@ def tetearakecil():
             tetearakecil()
 
     elif bii == '0' or bii == '00':
-        exit(sing.menu())
+        exit(orbxd.menu())
     else:
         print '\x1b[0;96m\x1b[0;97m [\x1b[1;36m\xe2\x80\xa2\x1b[1;37m] Choose the correct one '
         tetearakecil()
